@@ -1,6 +1,7 @@
 # unizin-hackathon-02-21
+# jupyter-data-marts
 
-This repository contains the non-sensitive parts of a Jupyter Notebook I wrote
+This directory contains the non-sensitive parts of a Jupyter Notebook I wrote
 as part of my participation in Day 1 of the February 2021 Unizin Hackathon,
 which focused on using data marts.
 
@@ -21,7 +22,7 @@ Here are a few notes on working with iPython notebooks.
 ### Using a virtual environment as a kernel
 
 If you are using Jupyter locally on your machine,
-you can manage the needed dependencies by creating a kernel based o a virtual environment.
+you can manage the needed dependencies by creating a kernel based on a virtual environment.
 To create a kernel, do the following:
 
 1) Create a virtual environment, and activate it.
@@ -35,13 +36,13 @@ To create a kernel, do the following:
    ```
 3. Run the following command.
    ```
-   python -m ipykernel install --user --name venv --display-name "dev-hacks"
+   python -m ipykernel install --user --name venv --display-name "hack-2-21"
    ```
 
 Then, when you run jupyter locally (i.e. `jupyter notebook`),
-you can either specify `dev-hacks` as the kernel when 
-creating a new notebook or click `Kernel` -> `Change Kernel` -> `dev-hacks`
-to change the kernel of an existing  notebook.
+you can either specify `hack-2-21` as the kernel when 
+creating a new notebook or click `Kernel` -> `Change Kernel` -> `hack-2-21`
+to change the kernel of an existing notebook.
 
 ### Excluding output data
 
