@@ -1,0 +1,11 @@
+# service account file(s)
+*.json
+
+# Virtual environment
+venv
+
+# Jupyter
+*.ipynb_checkpoints
+
+# IDE
+.idea
